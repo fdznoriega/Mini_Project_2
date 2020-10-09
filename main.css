@@ -16,3 +16,30 @@ h2 {
 .tableauPlaceholder {
     margin-bottom: 15px;
 }
+#navbar {
+    margin-bottom: 30px;
+}
+
+.content {
+    padding-top: 20px;
+    border-top: 3px solid black;
+}
+
+.navA {
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    color: gray;
+    background-color: lightcoral;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}
+.navA:hover {
+    color: lightcoral;
+    background-color: gray;
+}
