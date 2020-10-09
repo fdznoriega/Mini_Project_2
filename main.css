@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     margin-left: -25px;
+    font-weight: bold;
 }
 
 .tableauPlaceholder {
@@ -42,4 +43,8 @@ h2 {
 .navA:hover {
     color: lightcoral;
     background-color: gray;
+}
+
+ol li {
+    font-size: 1.3em;
 }
