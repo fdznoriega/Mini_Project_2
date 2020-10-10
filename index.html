@@ -108,11 +108,6 @@
                 <div class='tableauPlaceholder' id='viz1602295421397' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisProject2&#47;Ratings&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='VisProject2&#47;Ratings' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Vi&#47;VisProject2&#47;Ratings&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1602295421397');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
         </div>
-        <div class="row">
-            <div class="column">
-                <p>analysis</p>
-            </div>
-        </div>
     </div>
     <div class="container content" id="HostingExp">
         <div class="row">
@@ -128,7 +123,15 @@
         </div>
         <div class="row">
             <div class="column">
-                <p>analysis</p>
+                <p>In creating this visualization, we created a calculated 
+                    field called “Host Experience (Month)” which counts the 
+                    number of months by subtracting today’s date from “Host Since”. 
+                    From the trend line added to the scatterplot, it’s obvious that there 
+                    is a generally positive relationship between the host experience and number 
+                    of visits measured by the attribute “number of reviews.” However, we can tell 
+                    from the R-squared value that the predictability of this model here is extremely weak.
+                </p>
+                <img src="imgs/plot-analysis.png" />
             </div>
         </div>
     </div>
@@ -137,6 +140,15 @@
         <div class="row">
             <div class="column">
                 <h2>Reflection</h2>
+                    <h3>Overview</h3>
+                    <p>
+                        We analyzed the dataset of Airbnb Listings (30,478 entries) in New York City on 
+                        <a href="https://public.tableau.com/en-us/s/resources?qt-overview_resources=1#qt-overview_resources">Tableau Public</a>
+                        which was compiled from <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a>.
+                        We chose this dataset because it's relatively clean and purposeful enough for us to come up with meaningful 
+                        questions. It’s important to note that this dataset was sourced from only publicly available information on 
+                        the Airbnb website and had already been cleansed and aggregated before being adopted by Tableau Public.
+                    </p>
                     <h3>Data Selection</h3>
                     <p>
                         While looking for an interesting yet meaningful dataset to analyze, 
